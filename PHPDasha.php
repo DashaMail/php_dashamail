@@ -14,6 +14,9 @@ class PHPDasha {
 
 	//dashamail api url
 	private $apiUrl = 'https://api.dashamail.com/';
+	
+	//check email
+	private $checkUrl = 'http://labs.dashamail.com/email.fix/check.php';
 
 	//constructor
 	public function __construct($username = null, $password = null) {
